@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "411261404630",
+    "firebase_url": "https://ghs-av.firebaseio.com",
+    "project_id": "ghs-av",
+    "storage_bucket": "ghs-av.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411261404630:android:4935bf82d28ed0e5",
+        "android_client_info": {
+          "package_name": "com.titan.ghsav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411261404630-bqn9u83q05bad010gaivpcvrut7rr1vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWjHAXVHy-DNTrgz5KU6i6mEt2GE0njAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/downloadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:visibility="invisible">
+        <ProgressBar
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:id="@+id/progressBar1"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/actionbar_color"
+            android:text="Downloading... Please wait"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="500dp"
+        android:id="@+id/thumbnail"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        android:background="#000000"
+        />
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:src="@drawable/ic_play_circle_filled_black_24dp"/>
+</FrameLayout>
+
+</FrameLayout>
+
+
+
+
