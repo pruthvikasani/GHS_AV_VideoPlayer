@@ -30,13 +30,6 @@
 
         <include layout="@layout/content_main" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Pruthvi"
-            android:id="@+id/text_View"
-            android:textColor="@color/actionbar_color"
-            android:textSize="20sp"/>
 
     </FrameLayout>
 

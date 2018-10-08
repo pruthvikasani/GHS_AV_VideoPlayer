@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="Downloading...Please wait"
             android:gravity="center_horizontal"
-            android:textColor="@color/actionbar_color"
+            android:textColor="@color/darkred"
             />
     </LinearLayout>
     <ImageView
